@@ -5,8 +5,8 @@ Feature: verifier super villain
     When I request infos
     Then I should see the informations about it
 
-  Scenario: get Infos about heros and vilains
+  Scenario: get Infos about heros and villains
     Given We have a super hero and a villain
-    When I request infos villains
-    Then I should see the the villain
+    When I request infos from villain
+    Then I should see the the villain's info
 

@@ -8,8 +8,8 @@ import org.junit.Assert;
 public class MyStepdefs {
 
     private SuperHeros super1;
-    private SuperVilain vilain1;
     private String infos;
+
     @Given("We have a super hero")
     public void weHaveASuperHero() {
         super1 = new SuperHeros("Magma Mama", "Contrôle du Magma");
@@ -26,20 +26,4 @@ public class MyStepdefs {
 
     }
 
-    @Given("We have a super hero and a villain")
-    public void weHaveASuperHeroAndAVillain() {
-        super1 = new SuperHeros("Magma Mama", "Contrôle du Magma");
-        vilain1 = new SuperVilain(super1);
-    }
-
-    @When("I request infos villains")
-    public void iRequestInfosVillains() {
-        infos = vilain1.getInfo();
-    }
-
-    @Then("I should see the the villain")
-    public void iShouldSeeTheTheVillain() {
-        Assert.assertEquals("Nom : Tante Plante; Faiblesse : Feu; Ennemie/Pouvoir : Magma Mama : Contrôle du Magma;", vilain1.getInfo());
-
-    }
 }
