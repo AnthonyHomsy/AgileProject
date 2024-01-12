@@ -16,6 +16,10 @@ public class SuperHeros
         this.identiteSecrete = identiteSecrete;
         this.superPouvoir = superPouvoir;
     }
+    public SuperHeros() {
+        this.identiteSecrete = "Magma Mama";
+        this.superPouvoir = "Contrôle de Magma";
+    }
 
     public String getInfo()
     {
