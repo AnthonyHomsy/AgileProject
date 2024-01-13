@@ -1,4 +1,4 @@
-package org.example;
+package org.example.superΩ;
 
 /**
  * Write a description of class SuperHeros here.

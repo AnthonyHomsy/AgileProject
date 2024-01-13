@@ -1,5 +1,9 @@
 package org.example;
 
+import org.example.music.Instrument;
+import org.example.music.Musicien;
+import org.example.superΩ.SuperHeros;
+
 public class SuperMusicien {
 
     //Properties

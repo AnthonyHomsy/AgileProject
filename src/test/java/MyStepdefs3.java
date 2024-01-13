@@ -2,10 +2,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.example.Instrument;
-import org.example.Musicien;
-
-import java.util.Objects;
+import org.example.music.Instrument;
+import org.example.music.Musicien;
 
 public class MyStepdefs3 {
 

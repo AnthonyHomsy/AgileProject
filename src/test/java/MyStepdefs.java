@@ -1,9 +1,7 @@
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.example.SuperHeros;
-import org.example.SuperVilain;
-import org.junit.Assert;
+import org.example.superΩ.SuperHeros;
 
 public class MyStepdefs {
 
