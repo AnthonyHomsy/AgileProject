@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Instrument
 {
     // variables d'instance - remplacez l'exemple qui suit par le vôtre
-    private String famille = "vents";
+    private String famille = "Vents";
     private String tonalite = "Mib";
     private ArrayList<Musicien> proprios = new ArrayList<Musicien>();
 
