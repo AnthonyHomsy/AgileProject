@@ -6,3 +6,4 @@ class PouvoirCordes implements Pouvoir {
         System.out.println("Pouvoir de feu détecté !");
     }
 }
+

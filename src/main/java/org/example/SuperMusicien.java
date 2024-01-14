@@ -42,6 +42,7 @@ public class SuperMusicien {
     public String getIdentiteSecrete(){
         return superHeros.getInfo();
     }
+    public String getPouvoir() { return superHeros.getpouvoir(); }
     public Instrument getInstrumentMusicien(){
         return musicien.getInstrument();
     }

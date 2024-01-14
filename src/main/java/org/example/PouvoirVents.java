@@ -6,3 +6,4 @@ class PouvoirVents implements Pouvoir {
         System.out.println("Pouvoir de vol detecté!");
     }
 }
+

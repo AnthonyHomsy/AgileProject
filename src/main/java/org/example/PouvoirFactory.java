@@ -5,7 +5,7 @@ import org.example.music.Instrument;
 import java.util.HashMap;
 import java.util.Map;
 
-class PouvoirFactory {
+public class PouvoirFactory {
     private Map<String, Pouvoir> pouvoirMap;
 
     public PouvoirFactory() {

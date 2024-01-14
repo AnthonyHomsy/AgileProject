@@ -21,6 +21,10 @@ public class SuperHeros
         this.superPouvoir = "Contrôle de Magma";
     }
 
+    public String getpouvoir(){
+        return this.superPouvoir;
+    }
+
     public String getInfo()
     {
         // put your code here

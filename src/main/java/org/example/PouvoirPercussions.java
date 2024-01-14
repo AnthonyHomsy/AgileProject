@@ -6,3 +6,4 @@ public class PouvoirPercussions implements Pouvoir {
         System.out.println("Pouvoir d'invisibilité detecté!");
     }
 }
+
