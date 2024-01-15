@@ -18,17 +18,17 @@ public class MyStepdefs5 {
     PouvoirFactory pf = new PouvoirFactory();
 
     @Given("un musicien nommé {string}")
-    public void unMusicienNommeNom() {
-        mozart.setName("Mozart");
+    public void unMusicienNommeNom(String nom) {
+        mozart.setName(nom);
         Assert.assertNotNull(mozart);
         Assert.assertNotNull(mozart.getName());
 
     }
 
     @When("il choisit son instrument de la famille {string}")
-    public void ilJouaitDUnInstrumentDeLaFamilleFamille() {
+    public void ilJouaitDUnInstrumentDeLaFamilleFamille(String famille) {
         mozart.setInstrument(piano);
-        piano.setFamille("Cordes");
+        piano.setFamille(famille);
         piano.setTonalite("ut");
         Assert.assertNotNull(piano);
         Assert.assertNotNull(piano.getFamille());
