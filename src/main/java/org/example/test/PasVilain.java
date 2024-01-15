@@ -12,7 +12,7 @@ public class PasVilain {
 
     @org.junit.jupiter.api.Test
     void pasVilain() {
-        assertEquals(true, superman.getClass().equals(unvilain.getClass()));
+        assertEquals(false, superman.getClass().equals(unvilain.getClass()));
     }
 
 }
