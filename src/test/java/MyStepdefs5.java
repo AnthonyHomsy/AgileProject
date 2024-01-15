@@ -25,7 +25,7 @@ public class MyStepdefs5 {
 
     }
 
-    @When("il jouait d'un instrument de la famille {string}")
+    @When("il choisit son instrument de la famille {string}")
     public void ilJouaitDUnInstrumentDeLaFamilleFamille() {
         mozart.setInstrument(piano);
         piano.setFamille("Cordes");
@@ -42,3 +42,5 @@ public class MyStepdefs5 {
 
     }
 }
+
+

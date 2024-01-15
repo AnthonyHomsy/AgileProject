@@ -1,4 +1,4 @@
-package unitaires;
+package org.example.test;
 
 import org.example.SuperMusicien;
 import org.example.music.Instrument;
@@ -17,7 +17,8 @@ public class superAPouvoir {
     @org.junit.jupiter.api.Test
     void aInstru() {
         amadeus.setSuperHeros(superman);
-        assertNotNull(amadeus.getIdentiteSecrete());
+        assertNotNull(amadeus.getPouvoir());
     }
-
 }
+
+

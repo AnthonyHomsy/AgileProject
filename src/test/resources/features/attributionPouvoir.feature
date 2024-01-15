@@ -6,7 +6,7 @@ Feature: US_006
 
   Scenario Outline: Attribution automatique de pouvoirs
     Given un musicien nommé <nom>
-    When il jouait d'un instrument de la famille <famille>
+    When il choisit son instrument de la famille <famille>
     Then l usine de pouvoirs attribue automatiquement le pouvoir correspondant à l instrument du musicien
 
     Examples:

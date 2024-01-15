@@ -1,4 +1,4 @@
-package unitaires;
+package org.example.test;
 
 import org.example.music.Instrument;
 
